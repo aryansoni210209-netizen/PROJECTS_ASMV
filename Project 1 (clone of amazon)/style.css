@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    border: border-box;
+}
+/* styling the navbar */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.navbar div {
+    /* display: flex;
+    height: 50px;
+    align-items: center; */
+    
+}
+/* styleing the navlogo  */
+.nav_logo {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 114px;
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    align-self: normal;
+}
+/* creating border animation */
+.border {
+    border:2px solid #0f1111;
+}
+.border:hover{
+    border: 2px solid white;
+}
+/* styling nav2 */
+.nav_2 {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 89px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.line2 {
+    display: inline;
+    font-size: 0.90rem;
+}
+.line1 {
+    display: inline-block;
+    font-size: 0.75rem;
+    margin-left: 24px;
+    opacity: 0.75;
+}
+.nav_2 i {
+    font-size: 1.2rem;
+}
+/* styling the searchbar */
+.searchbar {
+    display: flex;
+    height: 37px;
+    width: 900px;
+    border: 2px solid white;
+}
+#search_select {
+    display: inline-block;
+    height: 100%;
+}
