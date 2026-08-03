@@ -8,14 +8,16 @@
 .navbar{
     height: 60px;
     background-color: #0f1111;
+    opacity: 0.95;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     color: white;
 }
 .navbar div {
     /* display: flex;
     height: 50px;
-    align-items: center; */
+    /* align-items: center;  */
     
 }
 /* styleing the navlogo  */
@@ -30,7 +32,7 @@
 }
 /* creating border animation */
 .border {
-    border:2px solid #0f1111;
+    border:2px solid transparent;
 }
 .border:hover{
     border: 2px solid white;
@@ -60,11 +62,132 @@
 /* styling the searchbar */
 .searchbar {
     display: flex;
-    height: 37px;
+    height: 42px;
     width: 900px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 #search_select {
     display: inline-block;
+    width: 60px;
     height: 100%;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius:5px ;
+}
+.searchbar input {
+    width: 100%;
+    
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 174, 0);
+    width: 45px;
+    border-top-right-radius: 5px ;
+    border-bottom-right-radius:5px ;
+}
+
+.icon i {
+    color: black;
+}
+/* styling language selector */
+
+.language {
+    height:50px ;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language select {
+    background-color: transparent;
+    color: white;
+    border: 0;
+    height: 45px;
+    width: 40px;
+    font-weight: 750;
+    font-size: 1rem;
+}
+/* styling the sign in */
+.signin {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.signin .line1 {
+    margin-left: 0;
+    opacity: 1;
+}
+/* styling the returns and order */
+.return {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60px;
+    height: 50px;
+    align-content: center;
+}
+.return .line1 {
+    margin-left: 0;
+    opacity: 1;
+} 
+/* styling the cart */
+.cart {
+    font-weight: 750;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart i {
+    color: white;
+    font-size: 26px;
+}
+.cart p {
+    margin-top: 20px;
+}
+
+/* styleing the deskbar */
+.deskbar{
+    height: 40px;
+    background-color: #190e29;
+    opacity: 0.95;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    color: white;
+}
+.deskbar li{
+    display: inline-block;
+    align-content: center;
+    margin-right: 8px;
+    height: 35px;
+}
+.deskbar div {
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+/* styleing hero page */
+
+.heroPage{
+    display: flex;
+    height: 600px ;
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.heroPage i {
+    display: inline-block;
+    height: 4rem;
+    margin-top: 120px;
+    font-size: 3rem;
+    color: white;
+    
 }
