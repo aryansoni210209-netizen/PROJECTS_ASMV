@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="outerNavbar">
+            <div class="innerNavbar">
+                <div class="logo">
+                    <P>asmv.com</P>
+                </div>
+                <div class="logIn btn" id="login">
+                    <p>log in</p>
+                </div>
+            </div>
+        </div>
+        <div class="mainSection">
+            <div class="sideBar">
+                <div class="sideBarInner">
+                    <div class="home side btn" id="home">home</div>
+                    <div class="taskManager side btn" id="taskManager">task manager</div>
+                    <div class="addTask side btn" id="addTask">add task</div>
+                    <div class="commandWindow side btn" id="command">command window</div>
+                    
+                </div>
+            </div>
+            <div class="mainScreenOuter">
+                <div class="mainScreenInner">
+                    <div class="tempContent">
+                        <div class="loginScr tempScr  " >
+                            
+                            <div class="innerLogin ">
+                                <h1 class="hedding">login or sign up</h1>
+                                <input type="text" placeholder="Enter your usename">
+                                <input type="password" placeholder="enter password" >
+                                <a href="#">forgot password</a>
+                                <button >login</button>
+                                <button class="inbtn" id="signUp">Sign up</button>
+                            </div>
+
+                            <div class="signUpScr hide">
+                                <h1 class="hedding">sign up</h1>
+                                <input type="text" placeholder="enter phone no. or email">
+                                <input type="password" placeholder="create a username" >
+                                <input type="password" placeholder="create a password" >
+                                <!-- <a href="#">forgot password</a> -->
+                                <button class="inbtn" id="signIn">sign in</button>
+                                <button class="inbtn" id="inLogin">login</button>
+                            </div>
+
+                            <div class="signInScr  hide" >
+                                <h1 class="hedding">sign in</h1>
+                                <input type="text" placeholder="enter your full name">
+                                <input type="date" placeholder="enter your date of birth" >
+                                <button >Submit</button>
+                                <button class="inbtn" id="inLogin">login</button>
+                            </div>
+                        </div>
+                        <div class="homeScr tempScr hide " >this is home</div>
+                        <div class="taskScr tempScr hide">this is task screen</div>
+                        <div class="addScr tempScr hide">this is add screen</div>
+                        <div class="commandScr tempScr hide">this is command screen</div>
+                    </div>
+                    <div class="mainContent">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main> 
+    <script src="script.js"></script>
+</body>
+</html>
