@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    text-transform: capitalize;
+}
+
+div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* styling the navbar */
+
+.outerNavbar {
+    height: 12vh;
+    display: flex;
+
+}
+
+.innerNavbar {
+    height: 90%;
+    width: 97%;
+    padding: 1rem;
+    padding-bottom: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innerNavbar div {
+    border-radius: 1rem;
+}
+
+.logo {
+    height: 72%;
+    width: 15%;
+    font-size: 2.7rem;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+.logIn {
+    height: 40%;
+    width: 5%;
+    font-size: 1rem;
+    font-family: cursive;
+    font-weight: 500;
+    align-self: flex-end;
+    margin-bottom: 0.3rem;
+}
+
+/* styling the mainSection */
+
+.mainSection {
+    height: 87vh;
+    justify-content: center;
+}
+
+/* styleing the sidebar */
+
+.sideBar {
+    height: 100%;
+    width: 12vw;
+    justify-self: flex-start;
+
+}
+
+.sideBarInner {
+    height: 98%;
+    width: 85%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.side {
+    /* height: 1.5rem; */
+    width: 8rem;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    justify-content: flex-start;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.4rem;
+    border-radius: 1rem;
+}
+
+.home {
+    margin-top: 1rem;
+}
+/* styling the mainscreen  */
+
+.mainScreenOuter {
+    height: 100%;
+    width: 90vw;
+}
+
+.mainScreenInner {
+    height: 98%;
+    width: 98%;
+    border-radius: 1rem;
+}
+
+/* styling the main content */
+
+.mainContent {
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+/* styling the temp screen contents  */
+
+.hide {
+    display: none;
+}
+
+.tempScr {
+    position: absolute;
+}
+
+.homeScr {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 1rem;
+    background-color: white;
+    left: 14rem;
+    top: 7rem;
+}
+
+.taskScr {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 1rem;
+    background-color: white;
+    left: 14rem;
+    top: 7rem;
+}
+
+.loginScr {
+    height: 65%;
+    width: 25rem;
+    border-radius: 1rem;
+    background-color: white;
+    right: 0.9rem;
+    top: 6rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.loginScr div {
+    height: 90%;
+    width: 90%;
+    border-radius: 1rem;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.loginScr input {
+    height: 2.5rem;
+    width: 18rem;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem; 
+    margin-top: 1rem;
+    padding: 0.3rem;
+    
+}
+
+.loginScr button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+.loginScr a {
+    margin-left: 10rem;
+}
+
+.hedding {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    align-self: flex-start;
+}
+
+.addScr {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 1rem;
+    background-color: white;
+    left: 14rem;
+    top: 7rem;
+}
+
+.commandScr {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 1rem;
+    background-color: white;
+    left: 14rem;
+    top: 7rem;
+}
+
+
+
